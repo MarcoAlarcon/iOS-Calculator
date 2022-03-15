@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+#calculadora{
+    background-color: black;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 5%;
+    right: 40%;
+    border-radius: 20px; 
+    box-shadow: 5px 5px 15px black;
+    padding: 20px;
+    text-align:  center;
+}
+
+table{
+    border-spacing: 20px;
+}
+
+input{
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    border: none;
+    padding: 4px;
+    width: 90%;
+    text-align: right;
+}
+
+.btnCalcular{
+    background-color: #ED8B16;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.btnCalcular:hover{
+    background-color: #e9a24b;
+    transition: 0.8s;
+}
+
+.btnAction{
+    background-color: lightgray;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btnAction:hover{
+    background-color: rgb(238, 238, 238);
+    transition: 0.8s;
+}
+
+.btnInserir{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btnInserir:hover{
+    background-color: gray;
+    transition: 0.8s;
+}
+
+.btnInserir0{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btnInserir0:hover{
+    background-color: gray;
+    transition: 0.8s;
+}   
